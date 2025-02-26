@@ -5,8 +5,11 @@ This project demonstrates how to compute contextual text similarity using the **
 ## ✨ Features
 
 ✅ Uses **Sentence-BERT** (`all-MiniLM-L6-v2`) to compute embeddings for sentences.
+
 ✅ Calculates **cosine similarity** between embeddings to measure text similarity.
+
 ✅ Loads and evaluates text similarity using the **STS Benchmark dataset**📊.
+
 ✅ Finds the **top 5 most similar sentences** from the dataset for a given user input🔎.
 
 ## 🔍 Example
@@ -16,9 +19,13 @@ This project demonstrates how to compute contextual text similarity using the **
 
 **🎯Output:**
 🎼 A person is playing a piano. (similarity: 0.7312)
+
 🎸 A man plays a guitar. (similarity: 0.7006)
+
 🎹 Someone is playing a piano. (similarity: 0.6983)
+
 🎸 A man is playing a guitar. (similarity: 0.6930)
+
 🎸 A man is playing a guitar. (similarity: 0.6930)
 
 
@@ -43,11 +50,16 @@ This project demonstrates how to compute contextual text similarity using the **
 🎯Encodes the user-provided sentence and finds the 5 most similar sentences in the dataset.
 ## 🚀Usage
 1️⃣ Clone the repository:
-git clone https://github.com/yourusername/contextual-text-similarity.git
-cd contextual-text-similarity
+
+   git clone https://github.com/kaoutarmi/contextual-text-similarity.git
+   cd contextual-text-similarity
+
 2️⃣ Run the script:
-python script.py
+
+   python script.py
+   
 3️⃣Enter your input sentence when prompted.
+  
 ## 🌍Applications
 This project can be useful for:
 
